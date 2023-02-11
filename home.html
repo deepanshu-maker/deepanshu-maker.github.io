@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSAID LIBRARY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+      body{
+        background-color: #f5d1d1;
+      }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: #831e30;" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/home.html">
+            <img src="./Images/Home/logo.jpg" alt="Bootstrap" width="70" height="70">
+          </a>
+          <div class="collapse navbar-collapse"></div>
+          <div class="collapse navbar-collapse"></div>
+          <div class="nav justify-content-center h1"><h1>BLJ & SONs LIBRARY</h1></div>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  justify-content-end"  id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>      
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+
+      <!-- Carousel -->
+      <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="./Images/Home/c1.jpg" width="100px" height="600px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark h1">
+              <h1>BLJ & SONS LIBRARY</h1>
+              <p class="display-6">BLJ & SONS LIBRARY provides the best peaceful place for students. </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Home/c3.jpg" width="100px" height="600px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block h1">
+              <h1>About Us</h1>
+              <p>Click The Below Button to get more details of us!!</p>
+              
+              <!-- <button type="button" class="btn btn-primary btn-lg"> <a href="/about.html" > About Us</a></button> -->
+              <a href="#about" class="btn btn-primary btn-lg" role="button" aria-disabled="true">About Us</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Home/c4.jpg" width="100px" height="600px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block h1 ">
+              <h1>Services</h1>
+              <p>Click the Below Button to know services provided by us!!</p>
+              <a href="#services" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Know Services!!</a>
+           
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Home/c5.jpg" width="100px" height="600px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark h1">
+              <h1>Contact Us</h1>
+              <p>Click on the Below button to fill up your query and contacting us!!</p>
+              <a href="/contact.html" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Contact Us</a>
+           
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+<!-- About us -->
+<div class="container px-4 py-5" id="about">
+    <h1 class="pb-2 border-bottom text-center display-1">About Us</h1>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <!-- <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+        </div> -->
+        <h3 class="fs-2">History</h3>
+        <p>Our Library is very famous and respected library. Our Late Grandfather have started the library. Since 1970 it is giving fruitful services to people so that they can fulfill their dreams.</p>
+
+        <!-- <a href="#" class="icon-link d-inline-flex align-items-center">
+          Call to action
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a> -->
+      </div>
+      <div class="feature col">
+        <!-- <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+        </div> -->
+        <h3 class="fs-2">Who are we?</h3>
+        <p>We are a dedicated team of 10 people who have high knowledge of running a library smoothly.Atleast 2-3 members of our team always present in library for any need.</p>
+        <!-- <a href="#" class="icon-link d-inline-flex align-items-center">
+          Call to action
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a> -->
+      </div>
+      <div class="feature col">
+        <!-- <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+        </div> -->
+        <h3 class="fs-2">Experience??</h3>
+        <p>All of our team members have experience of atleast 5 years and learning continously.Team includes atleast one member of almost each field like UPSC,IIT,NEET,CA,etc. so their knowledge are very useful for students</p>
+        <!-- <a href="#" class="icon-link d-inline-flex align-items-center">
+          Call to action
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a> -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Services -->
+
+  <div class="container marketing" id="services">
+    
+    <!-- <hr class="featurette-divider"> -->
+    <h1 class="pb-2 border-bottom text-center display-1">Services</h1>
+
+
+    <!-- START THE FEATURETTES -->
+
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Peaceful Environment: </h2>
+        <ul class="lead">
+          <li>A student joins the library not for just books but also for peaceful enviornment. BLJ & SONs library provides this need to students.
+          </li>
+          <li>Provides almost all books otherwise purchase that book on student suggestions.</li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./Images/services/s1.avif" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Infrastructre and other facilities:</h2>
+        <ul class="lead">
+          <li>We provide a rigid and well mannered structure for all furnitures.</li>
+          <li>Sufficient Space on student's desk to keep laptop and books also.</li>
+          <li>Free wifi, ACs and Heater as per weather, Purified Water.</li>
+          <li>Free Locker facilities.</li>
+          <li>Seat Reservation facility.</li>
+          <li>Separate seats also provided for girls if they need.</li>
+          <li>Separate room for taking lunch and dinner, so no need of going home.</li>
+          <li>Flexible and good quality chairs.</li>
+        </ul>
+
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./Images/services/s2.avif" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">How Hours are provided?</h2>
+        <ul class="lead">
+          <li>Pricing is done on the basis of the hour schemes you select.</li>
+          <li>We have fair pricing schemes based on hours.</li>
+          <li>
+            Follwing are the hours scheme provided:
+            <ul>
+              <li>Fix 6 hour scheme</li>
+              <li>Any 6 hour scheme</li>
+              <li>10 hour scheme</li>
+              <li>Complete Night scheme.</li>
+              <li>8 Hour scheme.</li>
+              <li>Afternoon 2pm to 6pm 4 hour special scheme.</li>
+            </ul>
+          </li>
+          <li>For pricing details of any of the scheme please contact us on referring the contact tab.</li>
+        </ul>  
+        
+        </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./Images/services/s3.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div>
+
+  <!-- Footer  -->
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="/home.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About Us</a></li>
+      <li class="nav-item"><a href="#services" class="nav-link px-2 text-muted">Services</a></li>
+      <li class="nav-item"><a href="/contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+      
+    </ul>
+    <p class="text-center text-muted">© 1970 Company, Inc</p>
+  </footer>
+
+
+<!-- </div> -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>

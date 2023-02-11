@@ -1,0 +1,30 @@
+/* .navigationlist{
+    margin-left: 950px;
+}
+
+.navigationHeading{
+    text-align: center;
+    margin-left: 550px;
+} */
+
+body {
+    background-image: url("./Images/contact/c3.avif");
+    background-size: cover;
+    background-color: #cccccc;
+    color: white;
+   }
+
+.contact{
+    font-size: 1.5rem;
+    
+}
+
+input:placeholder-shown,textarea {
+    background-color:  black!important;
+    /* opacity: 1; */
+ }
+
+.form-control::placeholder { /* WebKit, Blink, Edge */
+    color:    rgb(8, 85, 237) !important;
+}
+
